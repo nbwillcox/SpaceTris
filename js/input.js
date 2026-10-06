@@ -2,7 +2,7 @@
 (function (G) {
   'use strict';
   const S = G.settings;
-  const I = { held: { left: false, right: false, down: false }, q: {}, k: {}, touchBtns: [], ptr: new Map(), lastDevice: 'kbd', _prevPad: {} };
+  const I = { held: { left: false, right: false, down: false }, q: {}, k: {}, touchBtns: [], ptr: new Map(), lastDevice: null, _prevPad: {} };
   G.input = I;
   const HELD = { ArrowLeft: 'left', ArrowRight: 'right', ArrowDown: 'down' };
   const EVT = { ArrowUp: 'hard', Space: 'hard', KeyA: 'rotL', KeyD: 'rotR', KeyZ: 'rotL', KeyX: 'rotR', KeyS: 'hold', ShiftLeft: 'hold', ShiftRight: 'hold', KeyC: 'hold', KeyW: 'hold', KeyP: 'pause', Escape: 'pause', KeyR: 'restart' };
