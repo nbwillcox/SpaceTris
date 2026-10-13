@@ -134,7 +134,7 @@
   };
   R.SECTORS = ['NEBULA ALPHA', 'VIOLET RIFT', 'EMBER BELT', 'VERDANT CLOUD', 'MAGENTA VOID', 'GOLD CORONA'];
   R.resize = function (cv) {
-    R.S = Math.max(0.5, Math.min(window.devicePixelRatio || 1, 2) * (S.quality || 1));
+    R.S = Math.max(0.5, Math.min(window.devicePixelRatio || 1, window.TK && window.TK.on ? 1.5 : 2) * (S.quality || 1));                /* phones: at most 1.5x */
     const W = Math.max(200, Math.round(window.innerWidth * R.S)), H = Math.max(200, Math.round(window.innerHeight * R.S));
     cv.width = W; cv.height = H; R.bg = GL.cv(W, H); R.bx = R.bg.getContext('2d'); R.L = null;
   };
