@@ -19,6 +19,10 @@ Everything is generated in code: the nebulae, the glass blocks and all sound eff
 
 The key delay (DAS) and repeat rate (ARR) are adjustable in Settings. Touch buttons appear automatically on touch devices.
 
+### On a phone or tablet
+
+Best in portrait. The on-screen buttons appear on touch devices automatically (Settings has an on / off switch), plus a pause button. Use your browser's *Add to Home Screen* to install it as a full-screen app.
+
 ## Modes
 
 - **Marathon:** endless classic play; the level (and the nebula sector behind the board) changes every 10 lines.
