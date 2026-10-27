@@ -23,6 +23,10 @@ The key delay (DAS) and repeat rate (ARR) are adjustable in Settings. Touch butt
 
 Best in portrait. The on-screen buttons appear on touch devices automatically (Settings has an on / off switch), plus a pause button. Use your browser's *Add to Home Screen* to install it as a full-screen app.
 
+### Controller
+
+Plug in a gamepad and it just works: D-pad / stick moves and soft-drops, **Up / RT** hard-drops, **A / RB** rotates right, **X / B / LB** rotates left, **Y / LT** holds, **Start** pauses. In menus the D-pad / left stick moves the highlight, **A** selects, **B** goes back and **Start** plays or resumes. **Settings -> Controller** has a dead-zone slider and lets you remap every button.
+
 ## Modes
 
 - **Marathon:** endless classic play; the level (and the nebula sector behind the board) changes every 10 lines.
